@@ -1,0 +1,65 @@
+# ============================================
+# Spark Streaming .gitignore
+# ============================================
+
+# Hadoop binaries (Windows-specific)
+hadoop/
+winutils.exe
+hadoop.dll
+
+# Spark checkpoints and temporary files
+checkpoints/
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Python virtual environment
+Ghassen2/
+venv/
+env/
+.venv/
+ENV/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ivy cache (Spark dependencies)
+.ivy2/
+*.jar
+
+# Logs
+*.log
+logs/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Data files (optional - uncomment if you want to ignore CSV files)
+# *.csv
+# transactions.csv
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
